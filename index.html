@@ -5,6 +5,18 @@
     <meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <meta name="description" content="this is old">
+    <script type='text/javascript' src='http://code.jquery.com/jquery-1.8.2.js'></script>
+
+    <button>Change viewport</button>
+
+    <script type='text/javascript'>
+      $('button').on('click', function() {
+        // Just replacing the value of the 'content' attribute will not work.
+        $('meta[name=viewport]').remove();
+        $('head').append( '<meta name="viewport" content="user-scalable=1">' );
+      });
+</script>
   </head>
   <body>
 <script type="text/javascript">

@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>LPTag mobile Test</title>
-    <meta name="viewport" content="user-scalable=0, initial-width=1.0">
+    <meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <meta name="description" content="this is old">
@@ -14,7 +14,7 @@
       $('button').on('click', function() {
         // Just replacing the value of the 'content' attribute will not work.
         $('meta[name=viewport]').remove();
-        $('head').append( '<meta name="viewport" content="user-scalable=1, initial-width=1.0">' );
+        $('head').append( '<meta name="viewport" content="user-scalable=1, width=device-width, initial-scale=1.0">' );
       });
 </script>
   </head>

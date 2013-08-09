@@ -49,8 +49,15 @@ function setSkill()
     LPMobile.setSkill('sales-english');
   }
 </script>
+<script type="text/javascript">
+function setOrderTotal()
+  {
+    LPMobile.options.extras['orderTotal'] =  5000;
+  }
+</script>
 
-      <button onclick="setSkill()">set sales-english</button>
+
+      <button onclick="setOrderTotal()">set orderTotal</button>
     <h1>Hello, world!</h1>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>

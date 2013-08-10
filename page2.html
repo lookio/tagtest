@@ -50,14 +50,14 @@ function setSkill()
   }
 </script>
 <script type="text/javascript">
-function setOrderTotal()
+function conversion()
   {
-    LPMobile.options.extras['orderTotal'] =  5000;
+    LPMobile.Api.UDE.report(LPMobile.Api.UDE.LP_EVENT_CONVERSION, "99.99");
+    alert("sent a conversion event");
   }
 </script>
+<button onclick="conversion()">Buy Stuff</button>
 
-
-      <button onclick="setOrderTotal()">set orderTotal</button>
     <h1>Hello, world!</h1>
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>

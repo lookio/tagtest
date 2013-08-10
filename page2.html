@@ -52,7 +52,7 @@ function setSkill()
 <script type="text/javascript">
 function conversion()
   {
-    LPMobile.Api.UDE.report(LPMobile.Api.UDE.LP_EVENT_CONVERSION, "99.99");
+    LPMobile.reportEvent(LPMobile.LP_EVENT_CONVERSION, "99.99");
     alert("sent a conversion event");
   }
 </script>

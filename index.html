@@ -62,13 +62,8 @@ function setSkillm()
       <button onclick="setSkillm()">Set mobile</button></br></br>
       
 <script type="text/javascript">
-function setClickToCall()
-  {
-    LPMobile.reportEvent("clickToCall", "1");
-    alert("sent a call event");
-  }
-</script>      
-      <button onclick="setClickToCall()">Click 2 Call</button></br></br>
+     
+      <button onclick="LPMobile.reportEvent('clickToCall', '1')">Click 2 Call</button></br></br>
 <!-- BEGIN LivePerson Button Code -->
 <span id="lpButDivID-1381786065"></span>
 <script type="text/javascript" charset="UTF-8" src="https://sales.liveperson.net/hc/57521787/?cmd=mTagRepstate&site=57521787&buttonID=7&divID=lpButDivID-1381786065&bt=3&c=1"></script>

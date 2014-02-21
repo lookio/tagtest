@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="generator" content="HTML Tidy for Linux/x86 (vers 25 March 2009), see www.w3.org" />
+    <script type="text/javascript" src="https://tokenizer.liveperson.net/pcigw/js/jquery.1.9.1.min.js"></script>
+    <script type="text/javascript" src="https://tokenizer.liveperson.net/pcigw/js/json2.min.js"></script>
+    <script type="text/javascript" src="https://tokenizer.liveperson.net/pcigw/js/pci_dynamic.js"></script>
+    <link rel="stylesheet" href="https://tokenizer.liveperson.net/pcigw/css/pci_dynamic.css" type="text/css" />
+    <title></title>
+    <script type="text/javascript">
+        window.pciFormDefinition = [{"id":"lp_sf_question-0","name":"Credit Card Number","type":"numeric","required":false},{"id":"lp_sf_question-1","name":"Zip Code","type":"numeric","required":false},{"id":"lp_sf_question-2","name":"Expiration Date","type":"text","required":false}];
+    </script>
+</head>
+<body>
+<form id="pci_submit_form" style="display:none;" action="tokenize?siteid=" method="POST">
+    <input name="data" id="pci_data" />
+    <input name="formOtk" id="pci_formOtk" />
+    <input name="otk" id="pci_otk" />
+    <input name="otkJson" id="pci_otkJson" />
+    <input name="redirect" id="pci_redirect" />
+</form>
+
+<div class="pci_top_section">
+    <div class="left">
+        <div class="secure_image"></div>
+    </div>
+    <div class="right">
+        <div id="pci_topsection_title" class="text1"></div>
+        <div id="pci_topsection_description" class="text2"></div>
+    </div>
+</div>
+
+<div class="pci_body"></div>
+
+<div class="pci_bottom">
+    <div class="pci_stamp_image"></div>
+    <div class="pci_submit"></div>
+</div>
+<div id="pci_system_validation" style="display:none;"></div>
+</body>
+</html>

@@ -1,1 +1,1 @@
-document.write("<script src=\"/tagtest/js/staging-tag-server.js\"></script>");
+document.write("<script src=\"/tagtest/js/qa-tag.js\"></script>");
